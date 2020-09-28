@@ -1,0 +1,186 @@
+body {
+  background-image: url('https://www.themaincuprestaurant.com/wp-content/uploads/sites/483/2017/06/Brick-wall-background.jpg');
+}
+
+.card {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.card-title {
+  font-weight: bolder;
+}
+
+.card-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+span.card-text {
+  margin-top: 2px;
+}
+#inputSearch {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 1);
+}
+
+.imgLanguage {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.text-muted {
+  font-size: 15pt;
+}
+
+.card-body {
+  padding: 0.25rem;
+  margin-top: 10px;
+}
+
+.linkTitle {
+  text-decoration: none;
+  color: black;
+  font-size: 100%;
+}
+#radioAnd,
+#radioOr {
+  width: 15px;
+  height: 16px;
+}
+#java.form-check-input,
+#python.form-check-input,
+#javascript.form-check-input {
+  width: 15px;
+  height: 20px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 1);
+}
+.card {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 1);
+}
+
+.display-2 {
+  font-size: 110pt;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  box-shadow: 14px 1rem 3rem 4px rgba(0, 0, 0, 1);
+}
+.jumbotron {
+  background-color: unset;
+  margin-bottom: -32px;
+  margin-top: -25px;
+}
+.devCounter {
+  text-align: center;
+}
+h2 {
+  color: white;
+  font-size: 40pt;
+  box-shadow: 4px 1rem 2rem 3px rgba(0, 0, 0, 1);
+  margin-bottom: 30px;
+  border: black solid 5px;
+}
+span {
+  color: white;
+  font-size: 20pt;
+}
+
+/* zoom na imagem */
+.card {
+  overflow: hidden;
+}
+
+.card img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.card:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.startCheckbox {
+  display: flex;
+  float: right;
+}
+.form-check-label {
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 20pt;
+}
+
+@media (max-width: 570px) {
+  .display-2 {
+    font-size: 90pt;
+  }
+}
+@media (max-width: 538px) {
+  .card-body {
+    margin-top: 30px;
+  }
+  .linkTitle {
+  }
+}
+
+@media (max-width: 464px) {
+  .display-2 {
+    font-size: 69pt;
+  }
+  h2 {
+    font-size: 30pt;
+  }
+}
+
+@media (max-width: 385px) {
+  .display-2 {
+    font-size: 55pt;
+  }
+}
+
+@media (max-width: 300px) {
+  .display-2 {
+    font-size: 40pt;
+  }
+  span {
+    color: white;
+    font-size: 8pt;
+  }
+  h2 {
+    font-size: 20pt;
+  }
+  .card-body {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 225px) {
+  .display-2 {
+    font-size: 20pt;
+  }
+  span {
+    color: white;
+    font-size: 8pt;
+  }
+  h2 {
+    font-size: 15pt;
+  }
+}
+
+@media (max-width: 225px) {
+  .display-2 {
+    font-size: 10pt;
+  }
+  span {
+    color: white;
+    font-size: 8pt;
+  }
+  h2 {
+    font-size: 8pt;
+  }
+}
